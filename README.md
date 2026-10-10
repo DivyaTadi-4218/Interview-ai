@@ -1,8 +1,6 @@
 # InterviewAI — Voice-Only Mock Interview Platform
 
-A full-stack voice-only AI mock interview assistant. The candidate never
-types during an interview — they speak, the AI evaluates and adapts,
-and speaks the next question back.
+InterviewAI conducts mock interviews entirely by voice. The candidate selects a company, role, domain and interview type. Speech-to-text and text-to-speech run in the browser, while the backend's interview agent tracks state, evaluates each answer for technical and communication quality, and adaptively picks the next question. When no LLM key is configured, it falls back to deterministic logic, so the app works either way.
 
 ## Architecture
 
@@ -130,6 +128,6 @@ frontend/
                           Learning, Resume, History
 ```
 
-## How it works
+## Explaining this in an interview
 
-InterviewAI conducts mock interviews entirely by voice. The candidate selects a company, role, domain and interview type. Speech-to-text and text-to-speech run in the browser, while the backend's interview agent tracks state, evaluates each answer for technical and communication quality, and adaptively picks the next question. When no LLM key is configured, it falls back to deterministic logic, so the app works either way.
+"I built a voice-based AI mock interview platform using React, FastAPI, and a Claude-powered interview agent. The candidate selects a company, role, domain, and interview type, and the AI conducts the interview entirely through voice — speech-to-text and text-to-speech run natively in the browser for zero-latency, provider-independent voice, while the backend's interview agent maintains state, evaluates each answer for technical and communication quality, and adaptively selects the next question based on how the candidate is performing. It falls back to deterministic logic when no LLM key is configured, so the whole app demos reliably either way."
