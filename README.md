@@ -132,4 +132,4 @@ frontend/
 
 ## How it works
 
-"InterviewAI conducts mock interviews entirely by voice. The candidate selects a company, role, domain and interview type. Speech-to-text and text-to-speech run in the browser, while the backend's interview agent tracks state, evaluates each answer for technical and communication quality, and adaptively picks the next question. When no LLM key is configured, it falls back to deterministic logic, so the app works either way."
+InterviewAI conducts mock interviews entirely by voice. The candidate selects a company, role, domain and interview type. Speech-to-text and text-to-speech run in the browser, while the backend's interview agent tracks state, evaluates each answer for technical and communication quality, and adaptively picks the next question. When no LLM key is configured, it falls back to deterministic logic, so the app works either way.
