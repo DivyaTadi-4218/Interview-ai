@@ -1,4 +1,8 @@
-# InterviewAI — Voice-Only Mock Interview Platform
+## Demo
+[https://drive.google.com/file/d/1pGsE7IIZ2AGWtXr3kQ-AL6cRGIxX5D6h/view?usp=sharing(video Link)]
+[(https://pixel-perfect-display-2779.lovable.app/(App Link))]
+
+# InterviewAI — Voice-Only Mock Interview Platformzzzzxzzs
 
 InterviewAI conducts mock interviews entirely by voice. The candidate selects a company, role, domain and interview type. Speech-to-text and text-to-speech run in the browser, while the backend's interview agent tracks state, evaluates each answer for technical and communication quality, and adaptively picks the next question. When no LLM key is configured, it falls back to deterministic logic, so the app works either way.
 
